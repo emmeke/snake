@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #F0FAFF;
+}
+
+#container {
+  position: relative;
+  width: 520px;
+  margin: 60px auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #000000; 
+}
+
+#wrapper {
+  position: absolute;
+  top: 20px;
+  width: 520px;
+  height: 400px;
+}
+
+#gameOver {
+  width: 520px;
+  height: 84px;
+  margin: 158px auto;
+  text-align: center;
+  font: 40px monospace;
+}
+
+#game {
+  display: block;
+  width: 520px;
+  height: 400px;
+  margin-bottom: 8px;
+  background-color: #66CCFF;
+}
+
+#buttons {
+  display: block;
+  width: 80px;
+  height: 40px;
+}
+
+#score {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  height: 40px;
+  font: 40px monospace;
+  color: #66CCFF;
+}
